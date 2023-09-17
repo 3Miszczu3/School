@@ -7,8 +7,6 @@ class Termostat {
     private boolean chlodzenieWlaczone;
 
     public Termostat() {
-        this.aktualnaTemperatura = 20.0; // Początkowa temperatura
-        this.ustawionaTemperatura = 20.0; // Początkowa ustawiona temperatura
         this.ogrzewanieWlaczone = false;
         this.chlodzenieWlaczone = false;
     }
